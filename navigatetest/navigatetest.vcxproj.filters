@@ -11,8 +11,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$safeprojectname$.cpp">
+    <ClCompile Include="navigatetest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic.h" />
+    <ClInclude Include="CImg.h" />
+    <ClInclude Include="low.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="showmap.h" />
+    <ClInclude Include="ThisRobot.h" />
+    <ClInclude Include="fsa.h" />
+    <ClInclude Include="stlastar.h" />
   </ItemGroup>
 </Project>
